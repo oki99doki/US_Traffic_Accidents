@@ -67,19 +67,100 @@ Following this standardized process ensures a methodical approach to your analys
 ## Jupyter Notebook Sections
 
 ### Overview
-xxx
+Short project description. Your bottom line up front (BLUF) insights.
+
+Task: Analyze the US Accidents dataset to identify patterns, trends, and factors contributing to accidents. Based on your comprehensive analysis, you'll provide three data-driven insights that the DOT could utilize to reduce traffic accidents and improve road safety.
 
 ### Business Understanding
-xxx
+This explains why the project matters in the real world.
+
+Include:
+
+- Business scenario (traffic safety)
+- Project motivation
+- Analytical questions
+- Stakeholders
+- Expected benefits
+
+Examples of content:
+
+#### Problem
+
+Traffic accidents cause significant injuries, fatalities, and economic losses each year.
+
+#### Questions
+
+- Are accidents more severe during nighttime?
+- Does precipitation increase accident severity?
+- Which road features correlate with higher accident risk?
+
+#### Stakeholders
+
+- Transportation departments
+- Urban planners
+- Traffic safety agencies
 
 ### Data Understanding
-xxx
+This section explains what data is available have and what it contains. Include:
+
+Tasks:
+
+- [X] Load dataset
+- [X] Show dataset size (df.shape)
+- [X] Inspect structure (df.info())
+- [X] Describe variables (df.describe())
+- [ ] Document variables and meaning
+- [X] Identify categorical vs numerical columns
+- [X] Explore missing values
+- [X] Initial visualizations
+
+Example topics:
+
+Number of rows and columns
+Types of variables (numeric, categorical, boolean)
+Key columns such as Severity, Temperature, Visibility
+Missing data patterns
 
 ### Data Preparation
-xxx
+This section explains how the data is cleaned and transformed before analysis.
+
+Tasks:
+
+- [ ] Handling missing values
+- [ ] Filtering invalid values
+- [ ] Removing outliers
+- [ ] Converting data types (e.g., datetime)
+- [ ] Creating new variables
+- [ ] Feature engineering
+- [ ] Subsetting columns
+- [ ] Encoding categorical variables (if used)
+
+Examples:
+
+Convert Start_Time to datetime
+Create Hour or DayOfWeek
+Remove unrealistic weather values
+Filter extreme wind speeds
+Example code actions you performed.
 
 ### Analysis
-xxx
+This is where the actual findings are presented.
+
+Include:
+
+- [ ] Visualizations
+- [ ] Statistical summaries
+- [ ] Relationships between variables
+- [ ] Answers to analytical questions
+
+Examples:
+
+Accident severity vs precipitation
+Day vs night accident comparison
+Weather conditions and accident frequency
+Geographic distribution of accidents
+Correlations between variables
+Explain what the plots mean.
 
 ### Evaluation
 
