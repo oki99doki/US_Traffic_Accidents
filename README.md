@@ -12,6 +12,21 @@ The Goal is to perform comprehensive data analysis on real-world traffic acciden
 ## Task
 Analyze the US Accidents dataset to identify patterns, trends, and factors contributing to accidents. Based on a comprehensive analysis, there will be three data-driven insights provided that the DOT could utilize to reduce traffic accidents and improve road safety.
 
+## Resources
+Here are some resources including a link to the US accidents dataset.
+
+- Dataset: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
+- Template Github Repository: https://github.com/learn-co-curriculum/DS_Capstone_Template#
+- Pandas: https://pandas.pydata.org/docs/
+- Numpy: https://numpy.org/doc/stable/
+- Matplotlib: https://matplotlib.org/stable/contents.html
+- Seaborn: https://seaborn.pydata.org/
+- SciPy: https://docs.scipy.org/doc/scipy/
+- Statsmodels: https://www.statsmodels.org/stable/index.html
+- Dashboarding Tool: Tableau
+- FHSA data: https://safety.fhwa.dot.gov/
+- NHTSA: https://www.nhtsa.gov/research-data
+
 ## Potential Areas of Analysis
 
 ### Spatial and Temporal Patterns (SELECT)
