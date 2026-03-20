@@ -31,15 +31,24 @@ Here are some resources including a link to the US accidents dataset.
 
 ### Spatial and Temporal Patterns (SELECT)
 Consider examining when and where accidents most frequently occur. One might explore patterns by time of day, day of week, season, and geographic location. This type of analysis could potentially reveal critical hotspots and time periods requiring intervention.
-- [ ] Example Analysis 1
-- [ ] Example Analysis 2
-- [ ] ...
+- At what times during the day do most accidents happen?
+- Are there differences between weekdays and weekends?
+- Which states or cities have most accidents?
+- Are there seasonal patterns (winter vs. summer)?
+- [ ] H1: Accidents occur more frequently during rush hours (7-9 am and 4-6 pm).
+- [ ] H2: There are more accidents during weekdays (Mo-Fr) compared to weekends (Sa/Su).
+- [ ] States with larger populations have significantly more accidents?
 
 ### Environmental Factors (SELECT)
 One could investigate how weather conditions correlate with accident rates. Consider analyzing how visibility, precipitation, temperature, and other environmental variables might affect driver behavior and road conditions.
-- [ ] Example Analysis 1
-- [ ] Example Analysis 2
-- [ ] ...
+- Does bad weather have an impact on frequency and severity of accidents?
+- How does visibility impact accidents?
+- Are there more accidents during rain / snow / fog?
+- Does temperature have an influence?
+- [ ] H1: Poor visibility leads to higher accident severity.
+- [ ] H2: During rain and snow there are more accidents.
+- [ ] H3: Extreme temperatures (very cold/ hot) increase accident risk,
+- [ ] H4: Weather conditions have a sinificant impact on severity.
 
 ### Infrastructure Considerations (SELECT)
 One possible avenue is to identify specific road features associated with accident severity. This might include road design, signage, lighting, or other infrastructural elements that could contribute to or mitigate accident risk.
@@ -49,9 +58,15 @@ One possible avenue is to identify specific road features associated with accide
 
 ### Urban vs. Rural Comparison (DO NOT SELECT)
 One can compare accident patterns between urban and rural settings. These different environments likely present distinct challenges and risk factors that might require tailored safety approaches.
-- [ ] Example Analysis 1
-- [ ] Example Analysis 2
-- [ ] ...
+- Which road attributes are connected with most severe accidents?
+- Do traffic signals have an influence on accident frequency?
+- Are accidents more common at intersections, traffic lights, construction etc.?
+- Does lighting (day/night) have an effect?
+- [ ] H1: Accidents at intersections (junctions) are more common.
+- [ ] H2: Lacking or poor lighting increases severity.
+- [ ] H3: Traffic signals decrease the severity of accidents.
+- [ ] H4: Construction increases accident risk.
+- [ ] H5: Night conditions lead to higher severity.
 
 
 ## Problem Solving Process
