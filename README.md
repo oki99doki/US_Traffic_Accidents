@@ -69,8 +69,9 @@ One possible avenue is to identify specific road features associated with accide
 - [ ] H5: Night conditions lead to higher severity.
 
 ### Urban vs. Rural Comparison (DO NOT SELECT)
+
 One can compare accident patterns between urban and rural settings. These different environments likely present distinct challenges and risk factors that might require tailored safety approaches.
-- 
+
 
 ## Problem Solving Process
 
