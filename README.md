@@ -1,4 +1,4 @@
-# US_Traffic_Accidents
+# US Traffic Accidents
 
 ## Goal
 The Goal is to perform comprehensive data analysis on real-world traffic accident data. This includes:
