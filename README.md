@@ -155,15 +155,34 @@ Types of variables (numeric, categorical, boolean)
 Key columns such as Severity, Temperature, Visibility
 Missing data patterns
 
+
+FLOW
+
+1. Load relevant Libraries
+2. Load dataset
+3. Inspect first five rows
+4. Describe variables / some Statistics (df.describe())
+5. Inspect structure (df.info())
+6. Show dataset size (df.shape)
+7. Check all column headers - their meaning, type and typical values
+8. Downsampling (only run once)
+9. Inspect structure (df.info()) (see that memory usage is much lower (by factor of 100)
+10. Convert data types of Start_Time and End_Time and create new features needed for temporal analysis
+11. Compare downsampled data with original data in terms of target variable and some features
+12. Identify categorical vs numerical columns
+13. Reassign downsampled data to df
+
+
+
 ### Data Preparation
 This section explains how the data is cleaned and transformed before analysis.
 
 Tasks:
 
-- [ ] Handling missing values
+- [X] Handling missing values
 - [ ] Filtering invalid values
 - [ ] Removing outliers
-- [ ] Converting data types (e.g., datetime)
+- [X] Converting data types (e.g., datetime)
 - [ ] Creating new variables
 - [ ] Feature engineering
 - [ ] Subsetting columns
@@ -171,11 +190,27 @@ Tasks:
 
 Examples:
 
-Convert Start_Time to datetime
-Create Hour or DayOfWeek
+Convert Start_Time to datetime (done earlier)
+Create Hour or DayOfWeek (done earlier)
 Remove unrealistic weather values
 Filter extreme wind speeds
 Example code actions you performed.
+
+
+FLOW
+
+14. Inspect structure (df.info())
+15. Explore missing values - (df.isnull().sum()) - and create Heatmap
+16. Identify Null values (df.isnull().sum()) w. Percentages
+17. Identify NaN values (df.isna().sum()) w. Percentages (this is identical to 16. Null values
+18. Handle missing values - drop rows for affected columns
+19. Explore missing values - (df.isnull().sum()) - and create Heatmap - can see that only 4 columns are left.
+20. Plot key weather parameters
+21. Statistics for Weather parameters
+22. Statistics for all numeric parameters
+
+
+
 
 ### Analysis
 This is where the actual findings are presented.
@@ -195,6 +230,12 @@ Weather conditions and accident frequency
 Geographic distribution of accidents
 Correlations between variables
 Explain what the plots mean.
+
+
+
+
+
+
 
 ### Evaluation
 
