@@ -181,10 +181,10 @@ Tasks:
 
 - [X] Handling missing values
 - [ ] Filtering invalid values
-- [ ] Removing outliers
+- [X] Removing outliers
 - [X] Converting data types (e.g., datetime)
-- [ ] Creating new variables
-- [ ] Feature engineering
+- [X] Creating new variables
+- [X] Feature engineering
 - [ ] Subsetting columns
 - [ ] Encoding categorical variables (if used)
 
@@ -208,6 +208,12 @@ FLOW
 20. Plot key weather parameters
 21. Statistics for Weather parameters
 22. Statistics for all numeric parameters
+23. Handle outliers
+24. Plot key weather parameters
+25. Inspect structure (df.info())
+26. Engineered Features useful for Analysis
+27. Inspect structure (df.info())
+
 
 
 
@@ -232,8 +238,13 @@ Correlations between variables
 Explain what the plots mean.
 
 
+FLOW
 
-
+28. Plot Accidents by Hour
+29. Plot Accidents by Day of Week
+30. Combine multiple Weather Features and Plot Correlation Matrix
+31. Plot Distribution of Engineered Features
+32. Geographic Visualization - do not see as much with downsampled dataset
 
 
 
